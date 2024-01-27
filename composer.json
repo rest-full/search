@@ -1,0 +1,24 @@
+{
+    "name": "rest-full/search",
+    "description": "Do the zip search in the post office and other searches through curl.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/error": "1.*",
+        "rest-full/correios": "1.*"
+    }
+}
